@@ -190,3 +190,47 @@ form {
     color: white;
     margin: 25px 0px 0px 0px;
 }
+
+@media screen and (max-width: 1040px){
+    .container-main {
+        margin: 0px 40px 0px 40px auto;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .container-top {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container-top {
+        width: 100%;
+    }
+    .container-main {
+        width: 80%;
+    }
+    .container-main img {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    header {
+        position: static;
+    }
+    
+    .container-top h1{
+        float: none;
+        width: 100%;
+    }
+    nav {
+        align-content: center;
+        width: 100%;
+        
+    }
+    nav ul li{
+        text-align: center;
+    }
+}
